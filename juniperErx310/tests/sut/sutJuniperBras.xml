@@ -1,0 +1,34 @@
+<sut name="Juniper">
+
+	<juniper>
+	    <class>systemobject.aqua.misc.juniper.JuniperERX310</class>
+	    <host>192.168.110.200</host>
+	    <user>user</user>
+		<password>password</password>
+	   
+		
+		<interfaces index="0">
+			<class>systemobject.aqua.misc.juniper.BrasInterface</class>
+			<slot>1</slot>
+			<port>4</port>
+			<vlan>6</vlan>
+			<bridgeGroup>6</bridgeGroup>
+			<neighbor>NEIGHBOR</neighbor>
+			<endUserId>AUTO_1/4.6</endUserId>
+			<ip>192.168.40.80</ip>
+			<mask>255.255.255.0</mask>
+		</interfaces>
+		<interfaces index="1">
+			<class>systemobject.aqua.misc.juniper.BrasInterface</class>
+			<slot>1</slot>
+			<port>7</port>
+			<vlan>5</vlan>
+			<bridgeGroup>6</bridgeGroup>
+			<neighbor>NEIGHBOR</neighbor>
+			<endUserId>AUTO_1/7.5</endUserId>
+			<ip>192.168.70.80</ip>
+			<mask>255.255.255.0</mask>
+		</interfaces>
+	</juniper>
+	
+</sut>

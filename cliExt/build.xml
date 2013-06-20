@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cliExt" default="all" basedir=".">
+	<property name="projectName" value="cliExt"/>
+	<property environment="env"/>
+	<property name="dist" value="${env.RUNNER_ROOT}/lib"/>
+	<property name="buildFilesDir" value="${env.RUNNER_ROOT}/dev"/>
+	<import file="${buildFilesDir}/buildHelper.xml" />
+</project>
+

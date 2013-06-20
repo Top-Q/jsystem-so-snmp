@@ -1,0 +1,27 @@
+<sut>
+	<telnet>
+		<class>systemobject.aqua.comm.cli.ext.CliTelnet</class>
+			<user>user</user>
+			<password>password</password>
+			<host>192.168.124.20</host>
+			<connectOnInit>true</connectOnInit>
+	</telnet>
+	
+	<terminal>
+			<class>systemobject.aqua.comm.cli.ext.CliTerminal</class>
+			<user>user</user>
+			<password>password</password>
+			<host>192.168.124.11</host>
+			<port>2001</port>
+			<terminalUser>terminalUser</terminalUser>
+			<terminalPassword>terminalPassword</terminalPassword>
+			<connectOnInit>true</connectOnInit>
+			
+			<preCliConnect>
+					<class>systemobject.aqua.comm.cli.ext.preConnect.PreTerminalConnect</class>
+					<host>192.168.73.7</host>
+					<tsPort>2</tsPort>
+			</preCliConnect>
+			
+	</terminal>
+</sut>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cliExt"/>
+	<classpathentry kind="lib" path="/automationUtils/lib/cli.jar"/>
+	<classpathentry kind="lib" path="/automationUtils/lib/jsystemCommon.jar"/>
+	<classpathentry kind="lib" path="/automationUtils/lib/jsystemCore.jar"/>
+	<classpathentry kind="lib" path="/automationUtils/lib/junit.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

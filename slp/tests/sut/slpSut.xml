@@ -1,0 +1,23 @@
+<sut>
+	
+	<slp>
+		<class>systemobject.aqua.misc.slp.Slp</class>
+		<host>192.168.176.165</host>
+		<user>sysadmin</user>
+		<password>PASS</password>
+		
+		<ports index="0">
+			<class>systemobject.aqua.misc.slp.SlpPort</class>
+			<portname>SLP_PORT_1</portname>
+			<port>1</port>
+		</ports>
+
+		<ports index="1">
+			<class>systemobject.aqua.misc.slp.SlpPort</class>
+			<portname>SLP_PORT_2</portname>
+			<port>2</port>
+		</ports>
+
+	</slp>
+	
+</sut>
